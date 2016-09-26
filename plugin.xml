@@ -59,12 +59,14 @@
                 <param name="ios-package" value="APPEmailComposer"/>
             </feature>
         </config-file>
-
+        
+        <!--
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
             <array>
                 <string>mailto</string>
             </array>
         </config-file>
+        -->
 
         <header-file src="src/ios/APPEmailComposer.h" />
         <source-file src="src/ios/APPEmailComposer.m" />
